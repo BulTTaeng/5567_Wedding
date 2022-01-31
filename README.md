@@ -20,6 +20,8 @@ This is because we have to count all friend's friends. If we stop if we visit th
 
 I use DFS here. I think BFS will also work here.
 
+If the friend limt (friend's friend's friend's friend can be also come to wedding ...) is very large , I think use BFS and count the depth of it will work faster.
+
 By using depth parameter, I stop if depth is larger than 2.
 
 If I did not count that friend and searching node is not me(!=1) I counted it.
