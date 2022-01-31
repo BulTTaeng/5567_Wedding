@@ -24,6 +24,8 @@ By using depth parameter, I stop if depth is larger than 2.
 
 If I did not count that friend and searching node is not me(!=1) I counted it.
 
+I did not add 1 twice so I don't have to re visit the 1 node(me).
+
 ## Where can I get more help, if I need it?
 
 You can contact me through email, which is wogur7496@gmail.com.
