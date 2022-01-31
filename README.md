@@ -18,7 +18,7 @@ The hard part here is we have to do search even after we already visit that node
 
 This is because we have to count all friend's friends. If we stop if we visit that friends, we cannot search that friend's friends
 
-I use DFS here.
+I use DFS here. I think BFS will also work here.
 
 By using depth parameter, I stop if depth is larger than 2.
 
